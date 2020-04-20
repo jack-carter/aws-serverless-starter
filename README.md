@@ -1,13 +1,13 @@
 # aws-serverless-starter
 This project provides a comprehensive overview of setting up a project for AWS Serverless development from scratch, following the guide at [Guide: First Serverless Project](https://medium.com/serverlessguru/guide-first-serverless-project-630b91366505).
 
-## What You'll Need to Begin
-* Node Version Manager (`nvm`)
-* Node Package Manager (`npm`)
-* `npm` Package for AWS Serverless (`sls`)
-* an AWS Account
-* an AWS User Credential to act as an admin for Serverless operations
-* an AWS Access Key ID and Secret Access Key for that admin user
+## What We'll Be Doing
+* installing Node Version Manager (`nvm`)
+* installing Node Package Manager (`npm`)
+* installing AWS Serverless tools (`sls`)
+* Creating an AWS Account
+* Creating an AWS User Credential to act as an admin for Serverless operations
+* Downloading AWS Access Key ID and Secret Access Key for that admin user
 
 ## Installing `nvm`
 ...
@@ -21,8 +21,11 @@ The AWS Serverless package is meant to be used as a command line support tool, s
 npm install -g serverless
 ```
 
-## Creating an AWS Account & Serverless User Credential
+## Creating an AWS Account
 You can signup for your AWS here at [Signup for AWS](https://portal.aws.amazon.com/billing/signup), and simply follow instructions in the link at the top of this README.md file.
+
+## Creating a Serverless Admin Credential
+...
 
 ## Downloading Access Keys and Secret Access Keys
 ...
