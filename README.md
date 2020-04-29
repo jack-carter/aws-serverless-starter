@@ -81,3 +81,4 @@ serverless config credentials --provider aws --key <Access-Key-ID> --secret <Sec
 # Bibliography
 * [NVM Installer on GitHub](https://github.com/nvm-sh/nvm)
 * [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
+* [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
