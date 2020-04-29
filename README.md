@@ -9,11 +9,11 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * [Download Access Keys and Secret Access Keys](#download-access-keys-and-secret-aAccess-keys)
 * [__Installs__](#installs)
   * [installing AWS Command Line Interface (CLI)](#installing-aws-command-line-interface-cli)
-  * [Installing Node Version Manager (`nvm`)](#installing-node-version-manager-nvm)
-  * [Installing Node.js (`node`)](#installing-node-js-node)
-  * installing Node Package Manager (`npm`)
-  * installing AWS Serverless support (`sls`)
-  * Configure the Serverless CLI
+  * [installing Node Version Manager (`nvm`)](#installing-node-version-manager-nvm)
+  * [installing Node.js (`node`)](#installing-node-js-node)
+  * [installing Node Package Manager (`npm`)](#installing-node-package-manager-npm)
+  * [installing AWS Serverless support (`sls`)](#installing-aws-serverless-support-sls)
+  * [Configure the Serverless CLI](#configure-the-serverless-cli)
 * __Setup your Serverless Project__
   * Create the Serverless Project Structure
   * Add Offline & Typescript Support
@@ -60,7 +60,7 @@ node --version
 
 Which should result in the result `v10.0.0`.
 
-### Installing `npm`
+### Installing Node Package Manager (`npm`)
 If you installed Node.js using `nvm` as described above, then `npm` should already be installed for you. You can verify this by using:
 ```bash
 which npm
@@ -81,13 +81,13 @@ Which for Node.js v10.0.0 will show up as:
 5.6.0
 ```
 
-### Installing AWS Serverless support
+### Installing AWS Serverless support (`sls`)
 The AWS Serverless package is meant to be used as a command line support tool, so with this `npm` package we'll suggest you install it globally outside your project, so it can be available across your workstation.
 ```bash
 npm install -g serverless
 ```
 
-### Configure Serverless CLI
+### Configure the Serverless CLI
 Now we will configure the `sls` tool to use the Access and Secret Access Keys we just downloaded.
 ```bash
 serverless config credentials --provider aws --key <Access-Key-ID> --secret <Secret-Access-Key>
