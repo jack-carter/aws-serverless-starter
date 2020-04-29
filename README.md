@@ -2,22 +2,40 @@
 This project provides a comprehensive overview of setting up a project for AWS Serverless development from scratch, following the guide at [Guide: First Serverless Project](https://medium.com/serverlessguru/guide-first-serverless-project-630b91366505).
 
 ## What We'll Be Doing
-* __Installs__
-  * installing Node Version Manager (`nvm`)
-  * installing Node.js version 10
-  * installing Node Package Manager (`npm`)
-  * installing AWS Serverless support (`sls`)
-  * installing AWS Command Line Interface (CLI)
 * __Setup your AWS Account__
   * Creating an AWS Account
   * Creating an AWS User Credential to act as an admin for Serverless operations
   * Downloading AWS Access Key ID and Secret Access Key for that admin user
+* __Installs__
+  * installing AWS Command Line Interface (CLI)
+  * installing Node Version Manager (`nvm`)
+  * installing Node.js (`node`)
+  * installing Node Package Manager (`npm`)
+  * installing AWS Serverless support (`sls`)
 * __Setup your Serverless Project__
   * Configure the Serverless CLI
   * Create the Serverless Project Structure
   * Add Offline & Typescript Support
 
+## Setup AWS Account
+
+### Create an AWS Account
+You can signup for your AWS here at [Signup for AWS](https://portal.aws.amazon.com/billing/signup), and simply follow instructions in the link at the top of this README.md file.
+
+### Create a Serverless Admin Credential
+AWS strongly recommends separation of privileges when using its cloud services. During AWS Account creation you created a "root user" account. THIS SHOULD NOT BE USED DIRECTLY.
+
+You should instead create additional and alternative user accounts, which is this case will be an account specific to using AWS Serverless, or what we'll call the Serverless Admin account, or credential.
+
+...
+
+### Download Access Keys and Secret Access Keys
+...
+
 ## Installs
+
+### Installing AWS Command Line Interface (CLI)
+Amazon maintains installation packages for the CLI across all major development platforms, so we suggest you drop on by [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html), to walk you through how to go about doing the install.
 
 ### Installing `nvm`
 Developing in Node.js means managing its various versions. The absolute BEST way to do that is to use `nvm`. To check if you already have `nvm` installed on your workstation just use:
@@ -67,24 +85,6 @@ The AWS Serverless package is meant to be used as a command line support tool, s
 ```bash
 npm install -g serverless
 ```
-
-### Installing AWS Command Line Interface (CLI)
-Amazon maintains installation packages for the CLI across all major development platforms, so we suggest you drop on by [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html), to walk you through how to go about doing the install.
-
-## Setup AWS Account
-
-### Create an AWS Account
-You can signup for your AWS here at [Signup for AWS](https://portal.aws.amazon.com/billing/signup), and simply follow instructions in the link at the top of this README.md file.
-
-### Create a Serverless Admin Credential
-AWS strongly recommends separation of privileges when using its cloud services. During AWS Account creation you created a "root user" account. THIS SHOULD NOT BE USED DIRECTLY.
-
-You should instead create additional and alternative user accounts, which is this case will be an account specific to using AWS Serverless, or what we'll call the Serverless Admin account, or credential.
-
-...
-
-### Download Access Keys and Secret Access Keys
-...
 
 ### Configure Serverless CLI
 Now we will configure the `sls` tool to use the Access and Secret Access Keys we just downloaded.
