@@ -93,7 +93,7 @@ The main decision you have at this point is whether you wish to build a project 
 
 ### Create the Serverless Project structure
 ```bash
-serverless create --path <project-name> --template aws-nodes-typescript
+serverless create --path <project-name> --template aws-nodejs-typescript
 ```
 
 ## Offline Support
