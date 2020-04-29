@@ -9,28 +9,32 @@ This project provides a comprehensive overview of setting up a project for AWS S
 * Creating an AWS User Credential to act as an admin for Serverless operations
 * Downloading AWS Access Key ID and Secret Access Key for that admin user
 
-## Installing `nvm`
+## Installs
+
+### Installing `nvm`
 ...
 
-## Installing `npm`
+### Installing `npm`
 ...
 
-## Installing AWS Serverless
+### Installing AWS Serverless
 The AWS Serverless package is meant to be used as a command line support tool, so with this `npm` package we'll suggest you install it globally outside your project, so it can be available across your workstation.
 ```
 npm install -g serverless
 ```
 
-## Creating an AWS Account
+## Setup AWS Account
+
+### Creating an AWS Account
 You can signup for your AWS here at [Signup for AWS](https://portal.aws.amazon.com/billing/signup), and simply follow instructions in the link at the top of this README.md file.
 
-## Creating a Serverless Admin Credential
+### Creating a Serverless Admin Credential
 ...
 
-## Downloading Access Keys and Secret Access Keys
+### Downloading Access Keys and Secret Access Keys
 ...
 
-## Configuring Serverless CLI
+### Configuring Serverless CLI
 Now we will configure the `sls` tool to use the Access and Secret Access Keys we just downloaded.
 ```
 serverless config credentials --provider aws --key <Access-Key-ID> --secret <Secret-Access-Key>
