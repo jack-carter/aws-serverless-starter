@@ -16,7 +16,7 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * [Configure the Serverless CLI](#configure-the-serverless-cli)
 * [__Setup the Serverless Project__](#setup-the-serverless-project)
   * [Create the Serverless Project structure](#create-the-serverless-project-structure)
-  * [Adding Offline & Typescript Support](#adding-offline-typescript-support)
+  * [Adding Offline & Typescript Support](#adding-offline--typescript-support)
 
 ## Setup AWS Account
 
