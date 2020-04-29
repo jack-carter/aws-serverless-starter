@@ -8,9 +8,9 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * [Create a Serverless Admin Credential](#create-a-serverless-admin-credential)
   * [Download Access Keys and Secret Access Keys](#download-access-keys-and-secret-aAccess-keys)
 * [__Installs__](#installs)
-  * installing AWS Command Line Interface (CLI)
-  * installing Node Version Manager (`nvm`)
-  * installing Node.js (`node`)
+  * [installing AWS Command Line Interface (CLI)](#installing-aws-command-line-interface-cli)
+  * [Installing Node Version Manager (`nvm`)](#installing-node-version-manager-nvm)
+  * [Installing Node.js (`node`)](#installing-node-js-node)
   * installing Node Package Manager (`npm`)
   * installing AWS Serverless support (`sls`)
   * Configure the Serverless CLI
@@ -38,7 +38,7 @@ You should instead create additional and alternative user accounts, which is thi
 ### Installing AWS Command Line Interface (CLI)
 Amazon maintains installation packages for the CLI across all major development platforms, so we suggest you drop on by [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html), to walk you through how to go about doing the install.
 
-### Installing `nvm`
+### Installing Node Version Manager (`nvm`)
 Developing in Node.js means managing its various versions. The absolute BEST way to do that is to use `nvm`. To check if you already have `nvm` installed on your workstation just use:
 
 ```bash
