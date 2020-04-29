@@ -3,7 +3,7 @@ This project provides a comprehensive overview of setting up a project for AWS S
 
 ## What We'll Be Doing
 
-* [__Setup your AWS Account__](#setup-your-aws-account)
+* __Setup your AWS Account__
   * Creating an AWS Account
   * Creating an AWS User Credential to act as an admin for Serverless operations
   * Downloading AWS Access Key ID and Secret Access Key for that admin user
