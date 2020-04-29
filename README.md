@@ -141,4 +141,7 @@ import AWS = 'aws-sdk`
 * [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
 * [AWS Serverless Signup](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
 * [Serverless Deployments](https://www.serverless.com/framework/docs/providers/aws/cli-reference/deploy/)
+
+# Other Things to Consider
 * [AWS CLI JavaScript Wrapper](https://www.npmjs.com/package/aws-cli-js)
+* [AWS Serverless Application Model (SAM)](https://aws.amazon.com/blogs/compute/a-simpler-deployment-experience-with-aws-sam-cli/)
