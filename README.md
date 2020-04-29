@@ -115,8 +115,22 @@ plugins:
 
 The order of those lines is IMPORTANT, so keep them in the order shown above.
 
+## Begin Coding Your Project
+
+## Install AWS SDK
+Our assumption is that since you've chosen to use AWS Serverless you also intend to use the myriad of AWS services that are available (Lambda, S3, DyanomDB, etc). To install support for those services use the following:
+```bash
+npm install --save aws-sdk
+```
+
+With the above installed add the following line to `handler.ts`:
+```javascript
+import AWS = 'aws-sdk`
+```
+
 # Bibliography
 * [NVM Installer on GitHub](https://github.com/nvm-sh/nvm)
 * [An Absolute Begginner's Guide to Using `npm`](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
 * [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
+* [AWS Serverless Signup](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
