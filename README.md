@@ -108,6 +108,7 @@ serverless invoke local --function <function-name>
 ```
 
 ### Adding Offline & Typescript Support
+Install the various `npm` packages by using the following:
 ```bash
 npm install --save-dev serverless-plugin-typescript
 npm install --save-dev serverless-dynamodb-local
