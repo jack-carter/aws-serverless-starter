@@ -2,6 +2,7 @@
 This project provides a comprehensive overview of setting up a project for AWS Serverless development from scratch, following the guide at [Guide: First Serverless Project](https://medium.com/serverlessguru/guide-first-serverless-project-630b91366505).
 
 ## What We'll Be Doing
+
 * __Setup your AWS Account__
   * Creating an AWS Account
   * Creating an AWS User Credential to act as an admin for Serverless operations
@@ -12,8 +13,8 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * installing Node.js (`node`)
   * installing Node Package Manager (`npm`)
   * installing AWS Serverless support (`sls`)
-* __Setup your Serverless Project__
   * Configure the Serverless CLI
+* __Setup your Serverless Project__
   * Create the Serverless Project Structure
   * Add Offline & Typescript Support
 
@@ -46,7 +47,7 @@ command -v nvm
 
 `nvm` is a shell function, not a file, so the above command checks to see if `nvm` has been defined in your present login profile. If not, then our advice is to use the [`nvm` Installer](https://github.com/nvm-sh/nvm). Walk through their instructions if you need to install `nvm` on your workstation.
 
-### Installing Node.js
+### Installing Node.js (`node`)
 With `nvm` now installed and running simply use:
 ```bash
 nvm install 10
