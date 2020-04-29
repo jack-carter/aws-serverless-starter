@@ -91,7 +91,10 @@ serverless create --path <project-name> --template aws-nodes-typescript
 ```
 
 ## Offline Support
-AWS Serverless allows you to run your AWS Lambda functions locally, so you don't have to deploy them to run them.
+AWS Serverless allows you to run your AWS Lambda functions locally, so you don't have to deploy them to run them. Here's an example:
+```bash
+serverless invoke local --function <function-name>
+```
 
 ### Adding Offline Typescript Support
 ```bash
