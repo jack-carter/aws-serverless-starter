@@ -28,7 +28,7 @@ AWS strongly recommends separation of privileges when using its cloud services. 
 
 You should instead create additional and alternative user account, which is this case will be an account specific to using AWS Serverless, or what we'll call the Serverless Admin account, or credential.
 
-Here's a brief walk-through of how to do that [Create an IAM User and Access Key](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/#create-an-iam-user-and-access-key).
+Here's a brief walk-through of how to do that [Creating an AWS Access Key](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/#create-an-iam-user-and-access-key).
 
 ### Download Access Keys and Secret Access Keys
 We suggest you walk through this simple checklist [How to Get Access Key ID and Secret Access Key](https://supsystic.com/documentation/id-secret-access-key-amazon-s3/).
