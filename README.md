@@ -35,7 +35,25 @@ node --version
 Which should result in the result `v10.0.0`.
 
 ### Installing `npm`
-...
+If you installed Node.js using `nvm` as described above, then `npm` should already be installed for you. You can verify this by using:
+```bash
+which npm
+```
+
+which, for Node.js v10.0.0 would show something such as:
+```bash
+.../.nvm/versions/node/v10.0.0/bin/npm
+```
+
+then verify the version of `npm` you have installed by using:
+```bash
+npm --version
+```
+
+Which for Node.js v10.0.0 will show up as:
+```bash
+5.6.0
+```
 
 ### Installing AWS Serverless
 The AWS Serverless package is meant to be used as a command line support tool, so with this `npm` package we'll suggest you install it globally outside your project, so it can be available across your workstation.
