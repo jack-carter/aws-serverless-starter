@@ -6,7 +6,8 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * installing Node Version Manager (`nvm`)
   * installing Node.js version 10
   * installing Node Package Manager (`npm`)
-  * installing AWS Serverless tools (`sls`)
+  * installing AWS Serverless support (`sls`)
+  * installing AWS Command Line Interface (CLI)
 * __Setup your AWS Account__
   * Creating an AWS Account
   * Creating an AWS User Credential to act as an admin for Serverless operations
@@ -66,6 +67,9 @@ The AWS Serverless package is meant to be used as a command line support tool, s
 ```bash
 npm install -g serverless
 ```
+
+### Installing AWS Command Line Interface (CLI)
+Amazon maintains installation packages for the CLI across all major development platforms, so we suggest you drop on by [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html), to walk you through how to go about doing the install.
 
 ## Setup AWS Account
 
@@ -140,6 +144,7 @@ import AWS = 'aws-sdk`
 * [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
 * [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
 * [AWS Serverless Signup](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
+* [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 * [Serverless Deployments](https://www.serverless.com/framework/docs/providers/aws/cli-reference/deploy/)
 
 # Other Things to Consider
