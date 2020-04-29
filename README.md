@@ -140,4 +140,5 @@ import AWS = 'aws-sdk`
 * [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
 * [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
 * [AWS Serverless Signup](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
+* [Serverless Deployments](https://www.serverless.com/framework/docs/providers/aws/cli-reference/deploy/)
 * [AWS CLI JavaScript Wrapper](https://www.npmjs.com/package/aws-cli-js)
