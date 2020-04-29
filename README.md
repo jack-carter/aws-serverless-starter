@@ -82,7 +82,7 @@ Now we will configure the `sls` tool to use the Access and Secret Access Keys we
 serverless config credentials --provider aws --key <Access-Key-ID> --secret <Secret-Access-Key>
 ```
 
-## Structure the Serverless Project
+## Setup the Serverless Project
 The main decision you have at this point is whether you wish to build a project using straight JavaScript, or if you prefer to use TypeScript. In this day and age we will likely challenge you on why you WOULDN'T use TypeScript, but we'll leave that up to you to decide (although we will judge you for not using TypeScript).
 
 ### Create the Serverless Project structure
