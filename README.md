@@ -150,6 +150,7 @@ import AWS = 'aws-sdk`
 
 # Other Things to Consider
 * [Understanding and Getting Your AWS Credentials](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html)
+* [Managing Access Keys for IAM Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html)
 * [AWS CLI JavaScript Wrapper](https://www.npmjs.com/package/aws-cli-js)
 * [Tools for Working with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-tools.html)
 * [AWS Serverless Application Model (SAM)](https://aws.amazon.com/blogs/compute/a-simpler-deployment-experience-with-aws-sam-cli/)
