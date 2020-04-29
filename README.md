@@ -117,6 +117,6 @@ The order of those lines is IMPORTANT, so keep them in the order shown above.
 
 # Bibliography
 * [NVM Installer on GitHub](https://github.com/nvm-sh/nvm)
+* [An Absolute Begginner's Guide to Using `npm`](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
 * [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
 * [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
-* [An Absolute Begginner's Guide to Using `npm`](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/)
