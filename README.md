@@ -3,6 +3,7 @@ This project provides a comprehensive overview of setting up a project for AWS S
 
 ## What We'll Be Doing
 * installing Node Version Manager (`nvm`)
+* installing Node.js version 10
 * installing Node Package Manager (`npm`)
 * installing AWS Serverless tools (`sls`)
 * Creating an AWS Account
@@ -12,10 +13,47 @@ This project provides a comprehensive overview of setting up a project for AWS S
 ## Installs
 
 ### Installing `nvm`
-...
+Developing in Node.js means managing its various versions. The absolute BEST way to do that is to use `nvm`. To check if you already have `nvm` installed on your workstation just use:
+
+```bash
+command -v nvm
+```
+
+`nvm` is a shell function, not a file, so the above command checks to see if `nvm` has been defined in your present login profile. If not, then our advice is to use the [`nvm` Installer](https://github.com/nvm-sh/nvm). Walk through their instructions if you need to install `nvm` on your workstation.
+
+### Installing Node.js
+With `nvm` now installed and running simply use:
+```bash
+nvm install 10
+```
+
+Verify you are now using the correct version by using:
+```bash
+node --version
+```
+
+Which should result in the result `v10.0.0`.
 
 ### Installing `npm`
-...
+If you installed Node.js using `nvm` as described above, then `npm` should already be installed for you. You can verify this by using:
+```bash
+which npm
+```
+
+which, for Node.js v10.0.0 would show something such as:
+```bash
+.../.nvm/versions/node/v10.0.0/bin/npm
+```
+
+then verify the version of `npm` you have installed by using:
+```bash
+npm --version
+```
+
+Which for Node.js v10.0.0 will show up as:
+```bash
+5.6.0
+```
 
 ### Installing AWS Serverless
 The AWS Serverless package is meant to be used as a command line support tool, so with this `npm` package we'll suggest you install it globally outside your project, so it can be available across your workstation.
@@ -47,3 +85,8 @@ serverless config credentials --provider aws --key <Access-Key-ID> --secret <Sec
 ```bash
 serverless create --template <project-name>
 ```
+
+# Bibliography
+* [NVM Installer on GitHub](https://github.com/nvm-sh/nvm)
+* [Beginner's Guide to Node.js](https://www.codementor.io/@mercurial/how-to-install-node-js-on-macos-sierra-mphz41ekk)
+* [Serverless Plugin Typescript](https://www.serverless.com/plugins/serverless-plugin-typescript/)
