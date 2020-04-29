@@ -31,7 +31,7 @@ You should instead create additional and alternative user accounts, which is thi
 ...
 
 ### Download Access Keys and Secret Access Keys
-...
+We suggest you walk through this simple checklist [How to Get Access Key ID and Secret Access Key](https://supsystic.com/documentation/id-secret-access-key-amazon-s3/).
 
 ## Installs
 
