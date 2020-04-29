@@ -7,7 +7,7 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * [Creating an AWS Account](#create-an-aws-account)
   * [Create a Serverless Admin Credential](#create-a-serverless-admin-credential)
   * [Download Access Keys and Secret Access Keys](#download-access-keys-and-secret-aAccess-keys)
-* __Installs__
+* [__Installs__](#installs)
   * installing AWS Command Line Interface (CLI)
   * installing Node Version Manager (`nvm`)
   * installing Node.js (`node`)
