@@ -14,7 +14,7 @@ This project provides a comprehensive overview of setting up a project for AWS S
   * [installing Node Package Manager (`npm`)](#installing-node-package-manager-npm)
   * [installing AWS Serverless support (`sls`)](#installing-aws-serverless-support-sls)
   * [Configure the Serverless CLI](#configure-the-serverless-cli)
-* [__Setup the Serverless Project__(#setup-the-serverless-project)]
+* [__Setup the Serverless Project__](#setup-the-serverless-project)
   * [Create the Serverless Project structure](#create-the-serverless-project-structure)
   * [Adding Offline & Typescript Support](#adding-offline-typescript-support)
 
