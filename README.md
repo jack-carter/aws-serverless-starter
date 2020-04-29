@@ -27,6 +27,13 @@ With `nvm` now installed and running simply use:
 nvm install 10
 ```
 
+Verify you are now using the correct version by using:
+```bash
+node --version
+```
+
+Which should result in the result `v10.0.0`.
+
 ### Installing `npm`
 ...
 
