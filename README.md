@@ -2,13 +2,19 @@
 This project provides a comprehensive overview of setting up a project for AWS Serverless development from scratch, following the guide at [Guide: First Serverless Project](https://medium.com/serverlessguru/guide-first-serverless-project-630b91366505).
 
 ## What We'll Be Doing
-* installing Node Version Manager (`nvm`)
-* installing Node.js version 10
-* installing Node Package Manager (`npm`)
-* installing AWS Serverless tools (`sls`)
-* Creating an AWS Account
-* Creating an AWS User Credential to act as an admin for Serverless operations
-* Downloading AWS Access Key ID and Secret Access Key for that admin user
+* __Installs__
+  * installing Node Version Manager (`nvm`)
+  * installing Node.js version 10
+  * installing Node Package Manager (`npm`)
+  * installing AWS Serverless tools (`sls`)
+* __Setup your AWS Account__
+  * Creating an AWS Account
+  * Creating an AWS User Credential to act as an admin for Serverless operations
+  * Downloading AWS Access Key ID and Secret Access Key for that admin user
+* __Setup your Serverless Project__
+  * Configure the Serverless CLI
+  * Create the Serverless Project Structure
+  * Add Offline & Typescript Support
 
 ## Installs
 
@@ -96,7 +102,7 @@ AWS Serverless allows you to run your AWS Lambda functions locally, so you don't
 serverless invoke local --function <function-name>
 ```
 
-### Adding Offline Typescript Support
+### Adding Offline & Typescript Support
 ```bash
 npm install --save-dev serverless-plugin-typescript
 npm install --save-dev serverless-dynamodb-local
