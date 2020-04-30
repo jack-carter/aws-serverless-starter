@@ -90,7 +90,7 @@ npm install -g serverless
 ### Configure the Serverless CLI
 Now we will configure the `sls` tool to use the Access and Secret Access Keys we just downloaded.
 ```bash
-serverless config credentials --provider aws --key <Access-Key-ID> --secret <Secret-Access-Key>
+serverless config credentials --provider aws --profile <project-name> --key <Access-Key-ID> --secret <Secret-Access-Key>
 ```
 
 ## Setup the Serverless Project
