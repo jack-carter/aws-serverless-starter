@@ -50,7 +50,7 @@ command -v nvm
 ### Installing Node.js (`node`)
 With `nvm` now installed and running simply use:
 ```bash
-nvm install 10
+nvm install 10.13
 ```
 
 Verify you are now using the correct version by using:
@@ -58,7 +58,7 @@ Verify you are now using the correct version by using:
 node --version
 ```
 
-Which should result in the result `v10.0.0`.
+Which should result in the result `v10.13.0`.
 
 ### Installing Node Package Manager (`npm`)
 If you installed Node.js using `nvm` as described above, then `npm` should already be installed for you. You can verify this by using:
@@ -78,7 +78,7 @@ npm --version
 
 Which for Node.js v10.0.0 will show up as:
 ```bash
-5.6.0
+6.4.1
 ```
 
 ### Installing AWS Serverless support (`sls`)
